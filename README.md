@@ -1,6 +1,6 @@
 # Simple CLI using Laravel Zero
 
-This project created by **Arbha Pradana** using *[Laravel Zero](https://laravel-zero.com/)*
+This project created by **Arbha Pradana** using **[Laravel Zero](https://laravel-zero.com/)**
 ## Authors
 **Arbha Pradana**,
 for more information about me you can access it at:
