@@ -42,7 +42,7 @@ class AtisBmkgCommand extends Command
             $rawStations = collect(array_values($rawObject->report));
 
             $station = $rawStations->filter(function ($item) use ($icao) {
-                return $item->icao_id == $icao;
+                return $item->icao_id == strtoupper($icao);
             })->first();
 
             $formatted_text = "--------------------- Report Time: " . Carbon::parse($rawObject->report_time)->format('d/m/Y H:i:s') . " ---------------------\n";
