@@ -4,3 +4,4 @@
 /.vagrant
 /storage/framewrk
 .phpunit.result.cache
+.env
